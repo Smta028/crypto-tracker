@@ -1,0 +1,25 @@
+.info-grey-container{
+    display: block;
+    width: 90%;
+    background-color: var(--darkgrey);
+    margin: 0.5rem auto;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.coin-info-h2{
+    margin: 1rem;
+}
+
+.coin-info-desc{
+    margin: 1rem;
+    cursor: pointer;
+    
+}
+
+.coin-info-desc a{
+    text-decoration: underline !important;
+}
+.coin-info-desc a:hover{
+    color: var(--blue)!important;
+}
