@@ -10,7 +10,7 @@ function CoinInfo({ heading, desc }) {
 
 
     return (
-        <div className="grey-wrapper">
+        <div className="grey-wrapper" style={{padding:"0.5rem 1rem"}}>
             <h2 className="coin-info-h2">{heading}</h2>
             {desc.length > 200 ?
                 (<p
